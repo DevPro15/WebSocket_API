@@ -12,8 +12,7 @@ Before running the application, make sure you have the following installed:
 
 To install the dependencies for the application, run the following command:
 
-`bash`
-`npm install`
+`bash npm install`
 
 ## Configuration
 
@@ -23,8 +22,7 @@ The application does not require any configuration, but you may want to adjust t
 
 To start the application, run the following command:
 
-`bash`
-`npm start`
+`bash npm start`
 
 This will start the HTTP server and the Websocket server, and you should see a message in the console indicating that the server is listening on the specified port.
 To connect to the Websocket server, clients can use any Websocket client library or tool. The endpoint to connect to is ws://localhost:3000.
